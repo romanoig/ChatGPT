@@ -1,0 +1,7 @@
+# Secrets — never commit
+.env
+.env.*
+.dev.vars
+*.local
+settings.local.json
+.claude/settings.local.json

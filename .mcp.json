@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "cloudflare-NFR": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "REPLACE_WITH_CLOUDFLARE_MCP_PACKAGE"
+      ],
+      "env": {
+        "CLOUDFLARE_API_TOKEN": "${CLOUDFLARE_NFR_API_TOKEN}",
+        "CLOUDFLARE_ACCOUNT_ID": "${CLOUDFLARE_NFR_ACCOUNT_ID}"
+      }
+    }
+  }
+}
