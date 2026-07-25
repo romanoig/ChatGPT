@@ -1,0 +1,16 @@
+# Local Hostinger connection config — never commit real credentials
+.hostinger.env
+
+# SSH keys — never commit private keys
+id_rsa
+id_ed25519
+hostinger
+*.pem
+*_rsa
+*_ed25519
+*.key
+!*.pub
+
+# OS / editor cruft
+.DS_Store
+*.swp
